@@ -5,12 +5,12 @@
 import { isDark } from '~/composables'
 
 useHead({
-  title: 'Vitesse',
+  title: 'Lucas Fell',
   meta: [
-    { name: 'description', content: 'Opinionated Vite Starter Template' },
+    { name: 'description', content: 'Who am I and what I do' },
     {
       name: 'theme-color',
-      content: computed(() => isDark.value ? '#00aba9' : '#ffffff'),
+      content: computed(() => isDark.value ? '#ff5722' : '#ffffff'),
     },
   ],
 })
