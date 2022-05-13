@@ -1,12 +1,13 @@
 button:
   about: Sobre
   back: Voltar
-  blog: 'Blog'
+  education: 'Educação'
   go: Ir
   home: Início
-  projects: 'Projetos'
+  projects: Projetos
   toggle_dark: Alternar modo escuro
   toggle_langs: Mudar de idioma
+  work: 'Trabalho'
 intro:
   aka: Também conhecido como
   desc: Modelo Opinativo de Partida de Vite
