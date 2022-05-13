@@ -7,7 +7,7 @@ context('Basic', () => {
     cy.url()
       .should('eq', 'http://localhost:3333/')
 
-    cy.get('[btn]')
+    cy.get('[title="Home"]')
       .click()
       .url()
       .should('eq', 'http://localhost:3333/')
