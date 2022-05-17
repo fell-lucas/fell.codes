@@ -7,15 +7,18 @@ import { isDark } from '~/composables'
 useHead({
   title: 'Lucas Fell',
   meta: [
-    { name: 'description', content: 'Who am I and what I do' },
+    { name: 'description', content: 'Lucas Fell\'s Portfolio' },
     {
       name: 'theme-color',
-      content: computed(() => isDark.value ? '#ff5722' : '#ffffff'),
+      content: computed(() => isDark.value ? '#ea580c' : '#ffffff'),
     },
   ],
 })
 </script>
 
 <template>
-  <RouterView />
+  <main class="px-4 py-6 text-center text-gray-700 dark:text-gray-200">
+    <Nav class="mb-18" />
+    <RouterView />
+  </main>
 </template>

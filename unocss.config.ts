@@ -24,7 +24,7 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'Fira Code:300',
+        sans: 'Fira Code:300,400,500,600',
         mono: 'Fira Mono',
       },
     }),

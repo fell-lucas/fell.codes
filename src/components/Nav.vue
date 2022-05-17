@@ -4,7 +4,6 @@ import { toggleDark } from '~/composables'
 const { t, availableLocales, locale } = useI18n()
 
 const toggleLocales = () => {
-  // change to some real logic
   const locales = availableLocales
   locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
 }
@@ -16,7 +15,7 @@ const toggleLocales = () => {
       <div i-cil-cat />
     </RouterLink>
     <div class="inline-flex items-start">
-      <RouterLink class="mx-2 icon-btn align-top" to="/blog" title="Blog">
+      <RouterLink class="mx-2 icon-btn align-top" to="/posts" title="Blog">
         <h3>Blog</h3>
       </RouterLink>
       <RouterLink class="mx-2 icon-btn align-top" to="/projects" :title="t('button.projects')">
@@ -33,11 +32,11 @@ const toggleLocales = () => {
         <div i-carbon-education />
       </RouterLink>
 
-      <RouterLink class="icon-btn mx-2" to="/work" :title="t('button.work')">
+      <RouterLink class="icon-btn mx-2 lt-md:mr-3" to="/work" :title="t('button.work')">
         <div i-carbon-portfolio />
       </RouterLink>
 
-      <div mx-6>
+      <div mx-6 lt-md:hidden>
         <a class="icon-btn mx-2" rel="noreferrer" href="https://www.linkedin.com/in/lucas-fell/" target="_blank" title="LinkedIn">
           <div i-eva-linkedin-outline />
         </a>
@@ -59,7 +58,7 @@ const toggleLocales = () => {
         </a>
       </div>
 
-      <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
+      <a class="icon-btn mx-2 lt-md:ml-3" :title="t('button.toggle_langs')" @click="toggleLocales">
         <div i-eva-globe-outline />
       </a>
 

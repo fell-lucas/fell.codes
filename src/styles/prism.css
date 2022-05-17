@@ -2,7 +2,7 @@
 @import 'prism-theme-vars/base.css';
 
 .prose {
-  --prism-font-family: 'DM Mono', monospace;
+  --prism-font-family: 'Fira Code', sans;
 }
 
 .prose img {
