@@ -1,4 +1,9 @@
-@import './markdown.css';
+@import './prism.css';
+@import './md.css';
+
+:root {
+  --accent: #ea580c;
+}
 
 html,
 body,
@@ -9,7 +14,7 @@ body,
 }
 
 html.dark {
-  background: #121212;
+  background: rgb(6, 6, 6);
 }
 
 #nprogress {
@@ -17,7 +22,7 @@ html.dark {
 }
 
 #nprogress .bar {
-  background: #ea580c;
+  background: var(--accent);
   opacity: 0.75;
   position: fixed;
   z-index: 1031;
