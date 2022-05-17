@@ -35,7 +35,6 @@
     "@vue/test-utils": "^2.0.0-rc.21",
     "critters": "^0.0.16",
     "cross-env": "^7.0.3",
-    "cypress": "^9.6.1",
     "eslint": "^8.15.0",
     "eslint-plugin-cypress": "^2.12.1",
     "https-localhost": "^4.7.1",
@@ -55,7 +54,6 @@
     "vite-plugin-vue-layouts": "^0.6.0",
     "vite-ssg": "^0.20.0",
     "vite-ssg-sitemap": "^0.2.6",
-    "vitest": "^0.12.4",
     "vue-tsc": "^0.34.12"
   }
 }
