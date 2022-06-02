@@ -82,9 +82,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
-        theme_color: '#ffffff',
+        name: 'Lucas Fell',
+        short_name: 'fell.codes',
+        theme_color: '#ea580c',
         icons: [
           {
             src: '/pwa-192x192.png',

@@ -5,6 +5,7 @@ specifiers:
   '@iconify-json/carbon': ^1.1.4
   '@iconify-json/cil': ^1.1.1
   '@iconify-json/eva': ^1.1.1
+  '@iconify-json/fluent': ^1.1.8
   '@intlify/vite-plugin-vue-i18n': ^4.0.0
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
@@ -55,6 +56,7 @@ devDependencies:
   '@iconify-json/carbon': 1.1.4
   '@iconify-json/cil': 1.1.1
   '@iconify-json/eva': 1.1.1
+  '@iconify-json/fluent': 1.1.8
   '@intlify/vite-plugin-vue-i18n': 4.0.0_kj5f73o5oip2wjp6unrsn5wqd4
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
@@ -1366,6 +1368,12 @@ packages:
 
   /@iconify-json/eva/1.1.1:
     resolution: {integrity: sha512-tP5MOYLxKy8MkmHOlvd6nWCdVsTKreAd0X5sEUHw+361u50PdNVLiTTDuQ9Xs2DHh9k/dBtULBWBbyQiyExmaw==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/fluent/1.1.8:
+    resolution: {integrity: sha512-Bl6PvVtaksVF83U/amDcbxylg05X+XDJqW63bG70z288fnQ4eE34Y66IizGDX2fkFuDEwn7np4GbobMGAcxtBw==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
