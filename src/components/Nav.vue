@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toggleDark } from '~/composables'
+import { isDark, toggleDark } from '~/composables'
 
 const { t, availableLocales, locale } = useI18n()
 
@@ -12,53 +12,40 @@ const toggleLocales = () => {
 <template>
   <nav flex justify-between>
     <RouterLink class="icon-btn" to="/" :title="t('button.home')">
-      <div i-cil-cat />
+      <Logo :fill="isDark ? '#fff' : '#000'" />
     </RouterLink>
     <div class="inline-flex items-start">
-      <RouterLink class="mx-2 icon-btn align-top" to="/posts" title="Blog">
-        <h3>Blog</h3>
+      <RouterLink lt-md:hidden class="mx-2 icon-btn align-top" to="/posts" title="Blog">
+        <h3>
+          Blog
+        </h3>
       </RouterLink>
+
       <RouterLink class="mx-2 icon-btn align-top" to="/projects" :title="t('button.projects')">
         <h3>
           {{ t('button.projects') }}
         </h3>
       </RouterLink>
 
+      <RouterLink md:hidden class="mx-2 icon-btn align-top" to="/posts" title="Blog">
+        <div i-carbon-blog />
+      </RouterLink>
+
       <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
-        <div i-carbon-dicom-overlay />
+        <div i-carbon-user />
       </RouterLink>
 
       <RouterLink class="icon-btn mx-2" to="/education" :title="t('button.education')">
         <div i-carbon-education />
       </RouterLink>
 
-      <RouterLink class="icon-btn mx-2 lt-md:mr-3" to="/work" :title="t('button.work')">
+      <RouterLink class="icon-btn mx-2" to="/work" :title="t('button.work')">
         <div i-carbon-portfolio />
       </RouterLink>
 
-      <div mx-6 lt-md:hidden>
-        <a class="icon-btn mx-2" rel="noreferrer" href="https://www.linkedin.com/in/lucas-fell/" target="_blank" title="LinkedIn">
-          <div i-eva-linkedin-outline />
-        </a>
+      <Contacts />
 
-        <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/fell-lucas/" target="_blank" title="GitHub">
-          <div i-eva-github-outline />
-        </a>
-
-        <a class="icon-btn mx-2" rel="noreferrer" href="https://twitter.com/fell_codes" target="_blank" title="Twitter">
-          <div i-eva-twitter-outline />
-        </a>
-
-        <a class="icon-btn mx-2" rel="noreferrer" href="https://play.google.com/store/apps/developer?id=Lucas+Fell" target="_blank" title="Google Play">
-          <div i-eva-google-outline />
-        </a>
-
-        <a class="icon-btn mx-2" rel="noreferrer" href="mailto:hi@fell.codes" target="_blank" title="Email">
-          <div i-eva-email-outline />
-        </a>
-      </div>
-
-      <a class="icon-btn mx-2 lt-md:ml-3" :title="t('button.toggle_langs')" @click="toggleLocales">
+      <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
         <div i-eva-globe-outline />
       </a>
 
