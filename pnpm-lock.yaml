@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.23.0
   '@iconify-json/carbon': ^1.1.4
-  '@iconify-json/cil': ^1.1.1
+  '@iconify-json/circle-flags': ^1.1.13
   '@iconify-json/eva': ^1.1.1
   '@iconify-json/fluent': ^1.1.8
   '@intlify/vite-plugin-vue-i18n': ^4.0.0
@@ -54,7 +54,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.23.0_hcfsmds2fshutdssjqluwm76uu
   '@iconify-json/carbon': 1.1.4
-  '@iconify-json/cil': 1.1.1
+  '@iconify-json/circle-flags': 1.1.13
   '@iconify-json/eva': 1.1.1
   '@iconify-json/fluent': 1.1.8
   '@intlify/vite-plugin-vue-i18n': 4.0.0_kj5f73o5oip2wjp6unrsn5wqd4
@@ -1360,8 +1360,8 @@ packages:
       '@iconify/types': 1.1.0
     dev: true
 
-  /@iconify-json/cil/1.1.1:
-    resolution: {integrity: sha512-1qacyy2uw+gZV6ZMRhIn7P8dR62XA4/3R/D6mPqveQEqlysZZ9Bqg4GaEvqQh2dzbgDJRtq6gXAYqXaReF2uVw==}
+  /@iconify-json/circle-flags/1.1.13:
+    resolution: {integrity: sha512-kEjv+wctRwqiCUGqOdp7JmIte6gdEzURIvlqTeRg+wLPidhvdJSpRjRUiwMUnbXq/qi5cO9zlcb5IeHIsggZ4w==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true

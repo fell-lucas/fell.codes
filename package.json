@@ -25,6 +25,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.23.0",
     "@iconify-json/carbon": "^1.1.4",
+    "@iconify-json/circle-flags": "^1.1.13",
     "@iconify-json/eva": "^1.1.1",
     "@iconify-json/fluent": "^1.1.8",
     "@intlify/vite-plugin-vue-i18n": "^4.0.0",

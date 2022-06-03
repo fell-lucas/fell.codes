@@ -46,7 +46,8 @@ const toggleLocales = () => {
       <Contacts />
 
       <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
-        <div i-eva-globe-outline />
+        <div v-if="locale === 'pt-BR'" i-circle-flags-br />
+        <div v-else i-circle-flags-us />
       </a>
 
       <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
