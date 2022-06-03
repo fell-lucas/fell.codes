@@ -5,9 +5,16 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Contacts: typeof import('./components/Contacts.vue')['default']
+    Email: typeof import('./components/Social/Email.vue')['default']
+    GitHub: typeof import('./components/Social/GitHub.vue')['default']
+    LinkedIn: typeof import('./components/Social/LinkedIn.vue')['default']
+    Logo: typeof import('./components/Logo.vue')['default']
     Nav: typeof import('./components/Nav.vue')['default']
+    PlayStore: typeof import('./components/Social/PlayStore.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Twitter: typeof import('./components/Social/Twitter.vue')['default']
     WIP: typeof import('./components/WIP.vue')['default']
   }
 }

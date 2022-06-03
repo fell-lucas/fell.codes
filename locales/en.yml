@@ -1,18 +1,33 @@
 button:
-  about: About
+  about: About me
   back: Back
   education: Education
-  go: GO
   home: Home
   projects: Projects
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
   work: Work
-intro:
-  aka: Also known as
-  desc: Opinionated Vite Starter Template
-  dynamic-route: Demo of dynamic route
-  hi: Hi, {name}!
-  whats-your-name: What's your name?
+index:
+  me: Hi, I'm
+  p1: >-
+    I'm a software engineering student (7/9 semesters) and junior fullstack
+    developer. Working at
+  p2: >-
+    I have a passion for building clean, scalable and well-architected software
+    solutions. You can find my
+  p2a: full projects list here
+  p3: >-
+    Outside of programming, I enjoy listening to old school jazz music, drinking
+    yerba mate and reading. The latest book I've liked the most is
+  p3a: >-
+    by David Deutsch. It's about human progress and it feels like fiction, but
+    is actually popular science.
+  p3aa: The Beginning of Infinity
+  p4: You can also find me on
+  p4a: 'spoiler alert: not much going on there'
+  p4b: or
+  p5: Mail me at
+  p5a: hi
+  subtitle: I solve problems with tech.
 not-found: Not found
 not-found-msg: Thanks for coming, though!

@@ -1,17 +1,33 @@
 button:
-  about: Sobre
+  about: Sobre mim
   back: Voltar
   education: Educação
-  go: Ir
   home: Início
   projects: Projetos
   toggle_dark: Alternar modo escuro
   toggle_langs: Mudar de idioma
   work: Trabalho
-intro:
-  aka: Também conhecido como
-  desc: Modelo Opinativo de Partida de Vite
-  dynamic-route: Demonstração de rota dinâmica
-  hi: Olá, {name}!
-  whats-your-name: Qual é o seu nome?
+index:
+  me: Olá, sou o
+  p1: >-
+    Sou um estudante de engenharia de software (7/9 semestres) e desenvolvedor
+    fullstack junior. Trabalhando na
+  p2: >-
+    Tenho como paixão construir soluções de software bem arquitetadas e fáceis
+    de escalar. Você pode encontrar a minha
+  p2a: lista de todos os projetos aqui
+  p3: >-
+    Fora da programação, eu gosto de ouvir música jazz clássica, aprecio um bom
+    chimarrão/mate e a leitura. O último livro que mais gostei foi
+  p3a: >-
+    por David Deutsch. É sobre o progresso humano e parece muito ficção, mas é
+    na verdade ciência popular.
+  p3aa: O Começo do Infinito
+  p4: Você também pode me encontrar no
+  p4a: 'alerta de spoiler: não entro muito lá'
+  p4b: ou
+  p5: Me mande um e-mail em
+  p5a: oi
+  subtitle: Eu resolvo problemas com tecnologia.
 not-found: Não encontrado
+not-found-msg: Mas obrigado por dar uma olhada!

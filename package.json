@@ -20,14 +20,14 @@
     "prism-theme-vars": "^0.2.2",
     "vue": "^3.2.33",
     "vue-demi": "^0.12.5",
-    "vue-i18n": "^9.1.10",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.23.0",
     "@iconify-json/carbon": "^1.1.4",
-    "@iconify-json/cil": "^1.1.1",
+    "@iconify-json/circle-flags": "^1.1.13",
     "@iconify-json/eva": "^1.1.1",
+    "@iconify-json/fluent": "^1.1.8",
     "@intlify/vite-plugin-vue-i18n": "^4.0.0",
     "@types/markdown-it-link-attributes": "^3.0.1",
     "@types/nprogress": "^0.2.0",
@@ -50,10 +50,9 @@
     "vite-plugin-md": "^0.13.1",
     "vite-plugin-pages": "^0.23.0",
     "vite-plugin-pwa": "^0.12.0",
-    "vite-plugin-vue-inspector": "0.5.7",
-    "vite-plugin-vue-layouts": "^0.6.0",
     "vite-ssg": "^0.20.0",
     "vite-ssg-sitemap": "^0.2.6",
+    "vue-i18n": "9.2.0-beta.35",
     "vue-tsc": "^0.34.12"
   }
 }

@@ -1,13 +1,22 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="200.000000pt" height="200.000000pt" viewBox="0 0 200.000000 200.000000"
- preserveAspectRatio="xMidYMid meet">
+<script lang="ts">
+export default {
+  props: ['fill'],
+}
+</script>
 
-<g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M1670 1974 c-59 -33 -93 -66 -145 -139 -91 -128 -174 -328 -229 -552
+<template>
+  <svg
+    version="1.0" xmlns="http://www.w3.org/2000/svg"
+    width="30px" height="30px" viewBox="0 0 200.000000 200.000000"
+    preserveAspectRatio="xMidYMid meet"
+  >
+
+    <g
+      transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+      :fill="fill" stroke="none"
+    >
+      <path
+        d="M1670 1974 c-59 -33 -93 -66 -145 -139 -91 -128 -174 -328 -229 -552
 -57 -235 -71 -349 -71 -613 0 -129 3 -247 7 -261 7 -24 1 -32 -65 -84 -105
 -84 -183 -118 -277 -119 -73 -1 -79 1 -201 62 l-126 62 28 107 c15 60 39 178
 53 263 15 87 32 158 39 163 6 4 51 31 100 60 180 108 277 207 352 362 158 327
@@ -27,6 +36,8 @@ c23 -9 21 -96 -5 -172 -26 -77 -100 -222 -164 -322 -68 -107 -168 -236 -172
 -223 -7 20 48 243 88 360 78 227 154 344 236 363 1 0 8 -3 17 -6z m-340 -1435
 c62 -145 84 -228 68 -264 -41 -89 -110 73 -127 300 -5 60 -4 87 3 80 5 -5 31
 -58 56 -116z m-1134 -219 c-41 -58 -94 -77 -121 -44 -9 11 -10 20 -2 32 11 19
-72 40 116 41 l28 1 -21 -30z"/>
-</g>
-</svg>
+72 40 116 41 l28 1 -21 -30z"
+      />
+    </g>
+  </svg>
+</template>
